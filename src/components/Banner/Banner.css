@@ -1,0 +1,222 @@
+.banner__wrapper {
+  background: #10101a;
+  padding: 0 10px;
+  height: 100vh;
+}
+
+.banner-info {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.tech-adverbs,
+.personality-adverbs {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.tech-adverbs {
+  position: absolute;
+  right: 0;
+  top: 1%;
+}
+
+.personality-adverbs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+}
+
+.middle-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 90px 0;
+  text-align: center;
+}
+
+.middle-description h1 {
+  font-size: 95px;
+  font-weight: 300;
+}
+
+.tech-adverbs p,
+.personality-adverbs p {
+  display: inline-flex;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  letter-spacing: 1.9px;
+  font-family: "Poppins";
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.first-child-ad {
+  text-align: end;
+}
+
+.last-child-ad {
+  text-align: center;
+}
+
+.tech-adverbs span,
+.personality-adverbs span {
+  font-family: "Major Mono Display", monospace;
+  color: rgb(150, 149, 149);
+  font-size: 30px;
+  margin-bottom: 3px;
+  font-weight: 300;
+  display: inline-flex;
+  align-items: center;
+}
+
+.resume-link {
+  border: 1px solid #343a40;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: ease-in-out 0.9s;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.resume-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.resume-link:hover {
+  transform: scale(0.9);
+}
+
+.lottie__container {
+  width: 40%;
+}
+
+.banner__info-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.banner-socials a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.banner-socials a:not(:last-child) {
+  margin-right: 14px;
+}
+
+.banner-socials img {
+  width: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .banner__wrapper {
+    padding: 0 20px;
+    height: 100vh;
+  }
+
+  .tech-adverbs,
+  .personality-adverbs {
+    padding: 5px;
+  }
+
+  .personality-adverbs {
+    bottom: 10%;
+  }
+
+  .middle-description {
+    margin: 0;
+  }
+
+  .middle-description h1 {
+    font-size: 50px;
+  }
+
+  .tech-adverbs p,
+  .personality-adverbs p {
+    font-size: 15px;
+  }
+
+  .tech-adverbs span,
+  .personality-adverbs span {
+    font-size: 16px;
+    margin-bottom: 1px;
+  }
+
+  .resume-icon {
+    width: 17px;
+    height: 17px;
+  }
+
+  .lottie__container {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .banner__info-bottom {
+    margin-top: 40px;
+    padding: 0 7px;
+  }
+
+  .banner-socials a:not(:last-child) {
+    margin-right: 7px;
+  }
+
+  .banner-socials img {
+    width: 19px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .banner__wrapper {
+    padding: 0 10px;
+  }
+
+  .tech-adverbs,
+  .personality-adverbs {
+    padding: 15px;
+  }
+
+  .tech-adverbs {
+    top: 2%;
+  }
+
+  .middle-description {
+    margin: 90px 0;
+  }
+
+  .middle-description h1 {
+    font-size: 60px;
+  }
+
+  .banner__info-bottom {
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+
+  .banner-socials a:not(:last-child) {
+    margin-right: 12px;
+  }
+
+  .banner-socials img {
+    width: 25px;
+  }
+}
