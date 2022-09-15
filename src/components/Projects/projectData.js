@@ -20,7 +20,7 @@ export const projectData = [
   {
     title: "Dash Language School",
     description:
-      "An Online platform that teaches people across all ages, groups, careers about educational, cultural and linguistic ways of some Deutsch and/or French-speaking countries",
+      "The main purpose of this project was to provide a payment and informational platform for a language school with offices in Lagos, Nigeria. This website was created to provide various users with comprehensive information on the four foreign languages the school offers. Using a secure payment gateway, a user can preview a course, choose whether it fits into their schedule, then pay for it using Paystack.",
     tools: [
       "ReactJs",
       "Redux",
@@ -37,7 +37,7 @@ export const projectData = [
   {
     title: "Ovatave",
     description:
-      "Talent Management & Brand Development for the next generation of Singers, Models, Athletes, and Digital Entrepreneurs.",
+      "This project's major objective was to showcase the agency's next generation of singers, models, athletes, and digital entrepreneurs and celebrate its success in the entertainment industry.",
     tools: ["ReactJs", "GSAP", "Netlify"],
     icons: [React, gsap, netlify],
     live: "http://ovatave.netlify.app/",
@@ -46,7 +46,7 @@ export const projectData = [
   },
   {
     title: "Property Sales Reality",
-    description: "A Real-Estate Company Based in Nigeria.",
+    description: "This project's major objective was to display available properties that were listed in Lagos, Nigeria. Properties can be filtered by the following criteria: luxury, featured, for sale, and for rent. Additionally, it has a page called the 'admin dashboard' that acts as the app's content management system. Firebase and React.js were used to build this project.",
     tools: ["ReactJs", "Redux", "Firebase", "React Router", "Netlify"],
     icons: [React, redux, firebase, reactrouter, netlify],
     live: "http://propertysalesreality.netlify.app/",
@@ -55,7 +55,7 @@ export const projectData = [
   },
   {
     title: "My Portfolio",
-    description: "My Portfolio displaying a catalogue of projects done",
+    description: "The main goal of this project was to showcase all of my current projects, my biography, my accomplishments, and some specific information on how people can contact me.",
     tools: [
       "ReactJs",
       "GSAP",
@@ -71,7 +71,7 @@ export const projectData = [
   {
     title: "Wetter",
     description:
-      "Wetter, your modern, easy on the eye Weather Forecast. It's 98% accurate, with a sleek User Interface!",
+      "Wetter!, your sleek, user-friendly weather forecaster. With a modern user interface, it's 98% accurate!",
     tools: ["ReactJs", "React Router", "Netlify"],
     icons: [React, reactrouter, netlify],
     live: "https://weather-dasboard.netlify.app",
