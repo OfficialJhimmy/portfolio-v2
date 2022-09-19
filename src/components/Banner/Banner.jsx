@@ -43,7 +43,7 @@ const Banner = () => {
               <br />
               WEB DEVELOPER
             </h1>
-            <a href="/Feyijimi Erinle CV.PDF" download className="resume-link">
+            <a href="/Feyijimi Erinle.pdf" download className="resume-link">
               My Resume <AiOutlineCloudDownload className="resume-icon" />
             </a>
           </div>

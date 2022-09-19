@@ -4,6 +4,7 @@ import PSR from "../../assets/images/psr.webp";
 // import Manage from "../../assets/images/manage.webp";
 import Portfolio from "../../assets/images/banner-port.webp";
 import wetter from "../../assets/images/wetter.webp";
+import om from '../../assets/images/om.webp'
 // import html from "../../assets/icons/html5.svg";
 // import css from "../../assets/icons/css3.svg";
 // import js from "../../assets/icons/javascript.svg";
@@ -31,8 +32,18 @@ export const projectData = [
     ],
     icons: [React, redux, styledcomp, gsap, reactrouter, netlify],
     live: "https://dashlanguageschool.com",
-    github: "https://github.com/OfficialJhimmy/Dash-Language-Place",
+    // github: "https://github.com/OfficialJhimmy/Dash-Language-Place",
     img: DASH,
+  },
+  {
+    title: "O.M Associates",
+    description:
+      "This project's primary goal was to disseminate knowledge about a renowned tax and auditing organization with its main offices in Lagos, Nigeria. Users can learn more about the services the company offers through the Web app. a CMS app created using React and Firebase. Js to easily handle content.",
+      tools: ["ReactJs", "Redux", "Firebase", "React Router", "Netlify"],
+      icons: [React, redux, firebase, reactrouter, netlify],
+    live: "https://test-omassociates.netlify.app/",
+    github: "https://github.com/OfficialJhimmy/om-new",
+    img: om,
   },
   {
     title: "Ovatave",
@@ -64,7 +75,7 @@ export const projectData = [
       "Locomotive Scroll",
     ],
     icons: [React, gsap, swiper, reactrouter],
-    live: "http://portfolio-jhimmy.netlify.app",
+    live: "http://jhimmyofficial.netlify.app",
     github: "https://github.com/OfficialJhimmy/portfolio",
     img: Portfolio,
   },

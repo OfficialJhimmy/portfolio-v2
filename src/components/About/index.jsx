@@ -26,13 +26,13 @@ function About() {
           data-aos-duration="1000"
           data-aos-easing="ease"
         >
-          Hello World 🌎, I'm JhimmyOfficial, a Self-Taught Front-End Developer
-          based in{" "}
+          Hello World 🌎, I'm JhimmyOfficial, a front-end developer from{" "}
           <span className="inner-span__descrption">
-            Lagos,Nigeria <img src={NGA} alt="Flag of Nigeria" />
-          </span>
-          . I use Software Languages and Tool to turn ideas into real-world
-          products. That's the major reason why i enjoy being a Developer.
+            Lagos, Nigeria <img src={NGA} alt="Flag of Nigeria" />
+          </span>{" "}
+          who self-taught himself. I translate concepts into tangible products
+          using software languages and tools. That's a big part of why I like
+          working as a developer.
         </p>
 
         <p
@@ -42,10 +42,10 @@ function About() {
           data-aos-duration="1000"
           data-aos-easing="ease"
         >
-          I mainly use JavaScript to build products that are scalable, pixel
-          perfect and easy to maintain, but I'm always willing to get my hands
-          dirty with other type of Software Languages. Visual Studio Code is my
-          Haven💜
+          I mostly use JavaScript to create scalable, pixel-perfect, and
+          simple-to-maintain products, but I'm always ready to get my hands
+          dirty with different kinds of software languages. My safe haven is
+          Visual Studio Code 💜
         </p>
 
         <p
@@ -71,8 +71,11 @@ function About() {
             </span>
             and Yoruba (mother tongue)
             <br />
-            💡 On days when I'm not at my workstation, you'll find me making
-            documentaries on Lifestyle escapades.
+            <br/>
+            💡 Outside of work, I relax by reading books, trying out new foods,
+            exploring new places, attending tech conferences, and mentoring
+            young children who are interested in technology. I love impactful
+            work, especially when it involves software development.
           </span>
         </p>
       </div>
