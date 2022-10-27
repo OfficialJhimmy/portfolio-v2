@@ -4,7 +4,7 @@ import PSR from "../../assets/images/psr.webp";
 // import Manage from "../../assets/images/manage.webp";
 import Portfolio from "../../assets/images/banner-port.webp";
 import wetter from "../../assets/images/wetter.webp";
-import om from '../../assets/images/om.webp'
+import om from "../../assets/images/om.webp";
 // import html from "../../assets/icons/html5.svg";
 // import css from "../../assets/icons/css3.svg";
 // import js from "../../assets/icons/javascript.svg";
@@ -31,17 +31,17 @@ export const projectData = [
       "Netlify",
     ],
     icons: [React, redux, styledcomp, gsap, reactrouter, netlify],
-    live: "https://dashlanguageschool.com",
+    live: "https://dashlanguageschool.com.ng",
     // github: "https://github.com/OfficialJhimmy/Dash-Language-Place",
     img: DASH,
   },
   {
     title: "O.M Associates",
     description:
-      "This project's primary goal was to disseminate knowledge about a renowned tax and auditing organization with its main offices in Lagos, Nigeria. Users can learn more about the services the company offers through the Web app. a CMS app created using React and Firebase. Js to easily handle content.",
-      tools: ["ReactJs", "Redux", "Firebase", "React Router", "Netlify"],
-      icons: [React, redux, firebase, reactrouter, netlify],
-    live: "https://test-omassociates.netlify.app/",
+      "This project's primary goal was to disseminate knowledge about a renowned tax and auditing organization with its main offices in Lagos, Nigeria. Users can learn more about the services the company offers through the Web app. A Content Management System was also developed using React.Js and Firebase, to easily manage contents on the website.",
+    tools: ["ReactJs", "Redux", "Firebase", "React Router", "Netlify"],
+    icons: [React, redux, firebase, reactrouter, netlify],
+    live: "https://omassociates.com.ng/",
     github: "https://github.com/OfficialJhimmy/om-new",
     img: om,
   },
@@ -57,7 +57,8 @@ export const projectData = [
   },
   {
     title: "Property Sales Reality",
-    description: "This project's major objective was to display available properties that were listed in Lagos, Nigeria. Properties can be filtered by the following criteria: luxury, featured, for sale, and for rent. Additionally, it has a page called the 'admin dashboard' that acts as the app's content management system. Firebase and React.js were used to build this project.",
+    description:
+      "This project's major objective was to display available properties that were listed in Lagos, Nigeria. Properties can be filtered by the following criteria: luxury, featured, for sale, and for rent. Additionally, it has a page called the 'admin dashboard' that acts as the app's content management system. Firebase and React.js were used to build this project.",
     tools: ["ReactJs", "Redux", "Firebase", "React Router", "Netlify"],
     icons: [React, redux, firebase, reactrouter, netlify],
     live: "http://propertysalesreality.netlify.app/",
@@ -66,7 +67,8 @@ export const projectData = [
   },
   {
     title: "My Portfolio",
-    description: "The main goal of this project was to showcase all of my current projects, my biography, my accomplishments, and some specific information on how people can contact me.",
+    description:
+      "The main goal of this project was to showcase all of my current projects, my biography, my accomplishments, and some specific information on how people can contact me.",
     tools: [
       "ReactJs",
       "GSAP",
