@@ -83,7 +83,7 @@ function Footer() {
     <>
       <footer>
         <div className="footer-children-copyright">
-          <p>&#169;2022. All rights reserved JhimmyOfficial.</p>
+          <p>&#169;2023. All rights reserved JhimmyOfficial.</p>
         </div>
         <div className="footer-children-location">
           <span>6.455027°N 3.384082°E</span>
