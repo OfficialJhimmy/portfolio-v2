@@ -26,7 +26,7 @@ function About() {
           data-aos-duration="1000"
           data-aos-easing="ease"
         >
-          Hello World 🌎, I'm JhimmyOfficial, a front-end developer from{" "}
+          Hello World 🌎, I'm Feyijimi, a front-end developer from{" "}
           <span className="inner-span__descrption">
             Lagos, Nigeria <img src={NGA} alt="Flag of Nigeria" />
           </span>{" "}
