@@ -176,9 +176,9 @@ button {
 }
 
 @media screen and (max-width: 680px) {
-  section {
+/*   section {
     padding: 50px 20px;
-  }
+  } */
 
   p {
     line-height: 22px;
@@ -187,9 +187,9 @@ button {
 }
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
-  section {
+/*   section {
     padding: 50px 20px;
-  }
+  } */
 
   p {
     line-height: 1.6;
