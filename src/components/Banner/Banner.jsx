@@ -39,9 +39,9 @@ const Banner = () => {
           </div>
           <div className="middle-description">
             <h1>
-              FRONT-END
+              SOFTWARE
               <br />
-              WEB DEVELOPER
+              ENGINEER
             </h1>
             <a href="/Feyijimi Erinle.pdf" download className="resume-link">
               My Resume <AiOutlineCloudDownload className="resume-icon" />
