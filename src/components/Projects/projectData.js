@@ -1,4 +1,5 @@
 import DASH from "../../assets/images/dash.webp";
+import write from '../../assets/images/write.png"
 import Ovatave from "../../assets/images/ovatave.webp";
 import PSR from "../../assets/images/psr.webp";
 // import Manage from "../../assets/images/manage.webp";
@@ -18,6 +19,23 @@ import gsap from "../../assets/icons/greensock.svg";
 import firebase from "../../assets/icons/firebase.svg";
 
 export const projectData = [
+  {
+    title: "WriteTech Hub",
+    description:
+      "The main purpose of this project was to provide technical writing solutions to individuals or businesses. ",
+    tools: [
+      "ReactJs",
+      "Redux",
+      "Styled Components",
+      "GSAP",
+      "React Router",
+      "Netlify",
+    ],
+    icons: [React, redux, styledcomp, gsap, reactrouter, netlify],
+    live: "https://writetechhub.org",
+    // github: "https://github.com/OfficialJhimmy/Dash-Language-Place",
+    img: write,
+  },
   {
     title: "Dash Language School",
     description:
