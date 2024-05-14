@@ -1,5 +1,5 @@
 import DASH from "../../assets/images/dash.webp";
-import write from '../../assets/images/write.png"
+import write from "../../assets/images/write.png"
 import Ovatave from "../../assets/images/ovatave.webp";
 import PSR from "../../assets/images/psr.webp";
 // import Manage from "../../assets/images/manage.webp";
