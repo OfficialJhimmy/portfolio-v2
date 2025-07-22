@@ -1,0 +1,142 @@
+.app-container {
+  position: relative;
+  display: flex;
+  margin: 150px 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "gingerregular";
+  margin-bottom: 40px;
+}
+
+.marquee {
+  display: flex;
+  gap: 20px; /* added */
+  width: 1200px;
+  overflow: hidden;
+  user-select: none;
+  mask-image: linear-gradient(
+    to right,
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 10%,
+    hsl(0 0% 0% / 1) 90%,
+    hsl(0 0% 0% / 0)
+  );
+}
+
+@keyframes scrollX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-group,
+.marquee-group-reverse {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+  width: 100%;
+  animation: scrollX 30s linear infinite;
+}
+
+.marquee-group-reverse {
+  animation-direction: reverse;
+  animation-delay: -3s;
+  margin-top: 30px;
+}
+
+.image-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  place-items: center;
+  width: clamp(10rem, 1rem + 40vmin, 30rem);
+  padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
+  border-radius: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 10px;
+  height: 110px;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+}
+
+.image-group span {
+  color: #ffffff;
+  /* font-family: "Euclid Circular A Regular"; */
+  font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  .app-container {
+    margin: 150px 20px;
+  }
+
+  .wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text {
+    font-size: 25px;
+  }
+
+  .marquee-group-reverse {
+    animation-direction: reverse;
+    animation-delay: -3s;
+    margin-top: 30px;
+  }
+
+ 
+
+  .image-group {
+    padding: 10px;
+    height: 110px;
+  }
+
+  .image-group span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 681px) {
+  .app-container {
+    margin: 100px 20px;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+
+  .marquee-group-reverse {
+    animation-direction: reverse;
+    animation-delay: -3s;
+    margin-top: 30px;
+  }
+}

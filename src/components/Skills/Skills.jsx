@@ -6,14 +6,14 @@ function Skills() {
   return (
     <>
       <div className="skills__container">
-        <h2>Skills & Tools</h2>
+        {/* <h2>Skills & Tools</h2> */}
         <div className="skills__wrapper">
           <div className="skills__box skills-left">
             <SkillsCarousel />
           </div>
-          <div className="skills__box">
+          {/* <div className="skills__box">
             <SkillsSvg />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

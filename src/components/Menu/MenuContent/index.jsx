@@ -23,15 +23,15 @@ const externalLinks = [
     component: <GitHub />,
   },
   {
-    url: "https://twitter.com/jhimmyofficial",
+    url: "https://x.com/erinthebrand",
     component: <Twitter />,
   },
   {
-    url: "https://linkedin.com/in/jhimmyofficial",
+    url: "https://linkedin.com/in/feyijimierinle",
     component: <Linkedin />,
   },
   {
-    url: "https://instagram.com/jhimmyofficial",
+    url: "https://instagram.com/erinthebrand",
     component: <Instagram />,
   },
 ];

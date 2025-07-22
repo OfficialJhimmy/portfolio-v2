@@ -21,19 +21,19 @@ function Social() {
               <img src={Github} alt="Social icon" />
             </a>
             <a
-              href="https://twitter.com/jhimmyofficial"
+              href="https://x.com/erinthebrand"
               className="social-media__links"
             >
               <img src={Twitter} alt="Social icon" />
             </a>
             <a
-              href="https://linkedin.com/in/jhimmyofficial"
+              href="https://linkedin.com/in/feyijimierinle"
               className="social-media__links"
             >
               <img src={Linkedin} alt="Social icon" />
             </a>
             <a
-              href="https://instagram.com/jhimmyofficial"
+              href="https://instagram.com/erinthebrand"
               className="social-media__links"
             >
               <img src={Instagram} alt="Social icon" />

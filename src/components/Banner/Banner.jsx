@@ -43,7 +43,7 @@ const Banner = () => {
               <br />
               ENGINEER
             </h1>
-            <a href="/Feyijimi Erinle.pdf" download className="resume-link">
+            <a href="/Feyijimi Erinle Resume.pdf" download className="resume-link">
               My Resume <AiOutlineCloudDownload className="resume-icon" />
             </a>
           </div>
@@ -75,19 +75,19 @@ const Banner = () => {
               <img src={Github} alt="Social icon" />
             </a>
             <a
-              href="https://twitter.com/jhimmyofficial"
+              href="https://x.com/erinthebrand"
               className="banner-social__icon"
             >
               <img src={Twitter} alt="Social icon" />
             </a>
             <a
-              href="https://linkedin.com/in/jhimmyofficial"
+              href="https://linkedin.com/in/feyijimierinle"
               className="banner-social__icon"
             >
               <img src={Linkedin} alt="Social icon" />
             </a>
             <a
-              href="https://instagram.com/jhimmyofficial"
+              href="https://instagram.com/erinthebrand"
               className="banner-social__icon"
             >
               <img src={Instagram} alt="Social icon" />
