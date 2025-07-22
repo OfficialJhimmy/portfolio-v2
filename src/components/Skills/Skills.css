@@ -123,8 +123,8 @@
 
 @media screen and (max-width: 499px) {
   .skills__container {
-    margin-bottom: 80px;
-    padding-top: 80px;
+    margin-bottom: 30px;
+    padding-top: 30px;
   }
 
   .skills__container h2 {

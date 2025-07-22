@@ -252,7 +252,7 @@
   .techwork__container {
     display: block;
     gap: 30px;
-    margin: 90px 20px 100px 20px;
+    margin: 90px 20px 0 20px;
   }
 
   .techwork__image--container {
